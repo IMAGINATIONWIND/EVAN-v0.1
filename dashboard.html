@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EVAN</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>EVAN</h1>
+        <p>Compare ChatGPT and Gemini responses.</p>
+    </header>
+
+    <main>
+
+        <!-- Prompt Section -->
+        <section id="prompt-section">
+
+            <textarea
+                id="prompt"
+                placeholder="Ask anything..."></textarea>
+
+            <button id="compareBtn">
+                Compare
+            </button>
+
+        </section>
+
+        <!-- Response Section -->
+        <section id="responses">
+
+            <div class="panel">
+
+                <h2>ChatGPT</h2>
+
+                <div id="chatgpt-response" class="response">
+                    Waiting...
+                </div>
+
+            </div>
+
+            <div class="panel">
+
+                <h2>Gemini</h2>
+
+                <div id="gemini-response" class="response">
+                    Waiting...
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="dashboard.js"></script>
+
+</body>
+
+</html>
